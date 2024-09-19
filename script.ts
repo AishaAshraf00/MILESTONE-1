@@ -1,11 +1,11 @@
-const toggleButton = document.getElementById('yoggle-skills') as HTMLButtonElement
-const skills = document.getElementById('skills') as HTMLElement
+const toggleButton = document.getElementById('toggle-skills') as HTMLButtonElement
+const skillElements = document.getElementById('skills') as HTMLElement
 
 
 toggleButton.addEventListener('click' , ()=> {
-    if (skills.style.display === 'none') {
-        skills.style.display = 'block'
+    if (skillElements.style.display === 'none') {
+        skillElements.style.display = 'block'
     }else {
-        skills.style.display = 'none'
+        skillElements.style.display = 'none'
     }
 });
